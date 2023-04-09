@@ -2,9 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <app-elevador></app-elevador>
+  <app-quadrado></app-quadrado>
+ <app-imagem-aumentada></app-imagem-aumentada>   `
 })
 export class AppComponent {
-  title = 'prova';
+
 }

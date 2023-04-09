@@ -1,0 +1,22 @@
+<button (click)="subir()">Subir</button>
+<button (click)="descer()">Descer</button>
+<button (click)="sair()">Sair</button>
+<div class="container">
+  <img src="../../assets/images/elevador.png" [ngStyle]="{
+        'background-size': 'contain',
+        'width': tamanhoElevador ,
+        'backgroundImage': image,
+        'background-repeat':'no-repeat',
+        'background-position': 'center'
+
+    }" />
+  <img src="../../assets/images/usuario.png" [ngStyle]="{
+    'width': tamanhoUsuario,
+    ' height': tamanhoUsuario,
+    'visibility': visibilityHidden}" />
+</div>
+<img src="../../assets/images/seta.png" id="imagem-seta" [ngStyle]="{
+    'position':'absolute',
+    'visibility': seta,
+    'transform': porta
+}">

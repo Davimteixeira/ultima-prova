@@ -1,0 +1,18 @@
+button{
+  display: block;
+  margin: 0px auto;}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+}
+
+
+#imagem-seta{
+  position: absolute;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+}
